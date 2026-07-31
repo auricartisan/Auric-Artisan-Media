@@ -1,0 +1,51 @@
+1
+00:00:01,000 --> 00:00:19,000
+Start from a real responsive folder, Go Live, and let the same-origin client connect without changing the site.
+
+2
+00:00:21,000 --> 00:00:39,000
+Press Alt+Shift+D inside the website. Move through six focused tabs, pause metrics instantly, and return focus when closed.
+
+3
+00:00:41,000 --> 00:00:59,000
+Read active failures first, then demand-driven FPS, paints, interaction delay, layout shift, long tasks, DOM size, and runtime findings.
+
+4
+00:01:01,000 --> 00:01:19,000
+Compare transferred and decoded bytes, slow and large resources, network loads, likely browser-cache hits, and server-confirmed 304 responses.
+
+5
+00:01:21,000 --> 00:01:39,000
+Inspect server routing, bounded .auric-live records, browser storage totals, and the frame-coalesced cursor without reading private values.
+
+6
+00:01:41,000 --> 00:01:59,000
+Use the control panel for the server, run target, reload state, backend, network profile, traffic, requests, and project configuration.
+
+7
+00:02:01,000 --> 00:02:19,000
+Hot-swap styles and images without losing page state, and apply latency or bandwidth shaping to every connected client.
+
+8
+00:02:21,000 --> 00:02:39,000
+Combine a real API proxy with unfinished mock routes and a complete JSON REST database on the same browser origin.
+
+9
+00:02:41,000 --> 00:02:59,000
+Inspect method, query-free path, status, answering stage, bytes, and timing; replay, copy, or export a redacted request.
+
+10
+00:03:01,000 --> 00:03:19,000
+Keep a responsive browser surface beside the code with exact device sizes, rotation, reload, and browser handoff.
+
+11
+00:03:21,000 --> 00:03:39,000
+Test a phone viewport inside VS Code while the same live client, API surface, throttling, and dashboard remain available.
+
+12
+00:03:41,000 --> 00:03:59,000
+Open the real LAN page on a narrow browser and confirm that the site—not a mockup—adapts cleanly.
+
+13
+00:04:01,000 --> 00:04:19,000
+Finish with .auricignore-live exclusions, protected local records, trust gating, HTTPS, safe dotfiles, authentication, and a tested 0.1.0 VSIX.

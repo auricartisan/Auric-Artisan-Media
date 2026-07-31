@@ -1,0 +1,36 @@
+{
+  "product": "Auric Artisan Live",
+  "version": "0.1.0",
+  "generated": "2026-07-31",
+  "provenance": "Real control-panel and preview bundles with a local disposable demo site; no AI-generated product imagery or audio.",
+  "video": {
+    "file": "full-walkthrough.mp4",
+    "duration": "00:04:20",
+    "resolution": "1920x1080",
+    "frameRate": 30,
+    "videoCodec": "H.264",
+    "audioCodec": "AAC",
+    "sha256": "d77cf9c56260e0d0e8db00144c9bb4018b9efb9ff75b6ff942aed0aa4a56776c",
+    "bytes": 9276979
+  },
+  "assets": [
+    {"file":"video-poster.png","sha256":"c906b29350969397113cbe74f53774bf87370b842ed0885cdf7aae7f247f4a70","bytes":87139},
+    {"file":"full-walkthrough.srt","sha256":"37c2baa677407bddda72b77a7762d137935824a8ac893f547682479cc1f9e257","bytes":2062},
+    {"file":"full-walkthrough.vtt","sha256":"f7ad8ce40fb1841e280cd27cbcc30b3a8616e9ef391bc6ba24f5ec8ed26e70a8","bytes":2040},
+    {"file":"FULL-GUIDE.md","sha256":"b1ef800bfd2af2c1d237cff8e617842f7715a7c0ac1a97006df84be7f438d2f2","bytes":5722},
+    {"file":"TRANSCRIPT.md","sha256":"862cece13607fcda0c51ab1de9e30144d39d3336b3fee302e6c53a6efb930537","bytes":1713},
+    {"file":"MUSIC.md","sha256":"39a25e31fcd49bf4f8895e0798302cbc30426fd5fac795e2024117649b531c56","bytes":348},
+    {"file":"chapters.ffmeta","sha256":"cdcdad7062bb430bc9319ab97d92c0a33038722ee16bd2ca4967fec40f4536b9","bytes":1051},
+    {"file":"screenshots/01-served-site.png","sha256":"083076786d88cc61c994328a1be560ed705873e40df675390a0dca1568fb861d","bytes":171972},
+    {"file":"screenshots/02-control-panel.png","sha256":"c00107fe67ac9fdeb4dd6eb4ece26e571910b49886de109976bbf23a84c1b155","bytes":90367},
+    {"file":"screenshots/03-live-reload-and-network.png","sha256":"3e161b7f051a79076e6d36ab58654bb98c3ce704274ae83b34ea225d1d64e04d","bytes":368140},
+    {"file":"screenshots/04-proxy-mocks-rest.png","sha256":"4b6025603b4d690559cd166fa8bf330d69b092e64ebe0406fc4a8a5364ae1276","bytes":175449},
+    {"file":"screenshots/05-request-inspector.png","sha256":"574568f016075705f0034ffafde69ac5f500fc1d7ad6dd1fc222d788efa91120","bytes":204006},
+    {"file":"screenshots/06-responsive-preview.png","sha256":"63666ee5ab0927c0b0cb37112dc1ab2036954681f201d0bff22a8c88a82abeab","bytes":182613},
+    {"file":"screenshots/07-phone-preview.png","sha256":"8a9274a195980ace2cd6dde7d5eb814a6f48127bb3d67a1d9fb8a12b2a246126","bytes":69396},
+    {"file":"screenshots/08-phone-browser.png","sha256":"6fef78b6fe81fd64f5f0fddab08ad7a7436992bd91da23c31144e9e9b91b44c4","bytes":70662},
+    {"file":"screenshots/09-developer-dashboard.png","sha256":"45a65c7f1282c73dbf46fd970cc3f266ba200f403d2d11c84bad24583370a53d","bytes":86020},
+    {"file":"screenshots/10-dashboard-storage-cursor.png","sha256":"1521991ee604d0476f8bfdc3448afd4713f907b421dcdf290a8b299d2912dcbb","bytes":68966},
+    {"file":"screenshots/11-performance-stress-test.png","sha256":"a1673caafdd34f7ba88932faaaba8e95cf98a7ced31a67c276546fc4d715560a","bytes":84181}
+  ]
+}

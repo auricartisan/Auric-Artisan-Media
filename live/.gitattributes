@@ -1,0 +1,7 @@
+*.md text eol=lf
+*.json text eol=lf
+*.ffmeta text eol=lf
+*.srt text eol=lf
+*.vtt text eol=lf
+*.mp4 binary
+*.png binary

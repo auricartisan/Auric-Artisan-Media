@@ -1,0 +1,66 @@
+;FFMETADATA1
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=20000
+title=Go Live from a real site
+[CHAPTER]
+TIMEBASE=1/1000
+START=20000
+END=40000
+title=Open the website dashboard
+[CHAPTER]
+TIMEBASE=1/1000
+START=40000
+END=60000
+title=Health and page performance
+[CHAPTER]
+TIMEBASE=1/1000
+START=60000
+END=80000
+title=Network and cache truth
+[CHAPTER]
+TIMEBASE=1/1000
+START=80000
+END=100000
+title=Storage, records, and custom cursor
+[CHAPTER]
+TIMEBASE=1/1000
+START=100000
+END=120000
+title=Control panel and run target
+[CHAPTER]
+TIMEBASE=1/1000
+START=120000
+END=140000
+title=Live reload and network shaping
+[CHAPTER]
+TIMEBASE=1/1000
+START=140000
+END=160000
+title=Proxy, mocks, and REST
+[CHAPTER]
+TIMEBASE=1/1000
+START=160000
+END=180000
+title=Request inspector
+[CHAPTER]
+TIMEBASE=1/1000
+START=180000
+END=200000
+title=Responsive preview
+[CHAPTER]
+TIMEBASE=1/1000
+START=200000
+END=220000
+title=Phone preview
+[CHAPTER]
+TIMEBASE=1/1000
+START=220000
+END=240000
+title=Real mobile layout
+[CHAPTER]
+TIMEBASE=1/1000
+START=240000
+END=260000
+title=Privacy, safety, and release

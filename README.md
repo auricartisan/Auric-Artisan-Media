@@ -8,6 +8,7 @@ assets for Visual Studio Marketplace and in-editor extension pages.
 
 | Extension | Media kit | Full video |
 | --- | --- | --- |
+| Auric Artisan Live | [`live/`](live/) | [Complete 4:20 real-use guide](live/media/marketplace/full-walkthrough.mp4) |
 | Auric Artisan File System | [`file-system/`](file-system/) | [Watch or download MP4](file-system/media/marketplace/full-walkthrough.mp4) |
 | Auric Artisan Formatter | [`formatter/`](formatter/) | [Watch or download MP4](formatter/media/marketplace/full-walkthrough.mp4) |
 | Auric Icons — Playful | [`playful/`](playful/) | Marketplace PNG set |
@@ -26,8 +27,8 @@ The File System and Formatter kits contain:
 - extension icons used by the Marketplace package.
 - public copies of user-facing documents linked from Marketplace README pages.
 
-Every File System and Formatter screen was captured from a running VS Code
-Extension Development Host. No screenshot, poster or video frame is
+Every File System, Formatter, and Live screen was captured from a running VS
+Code Extension Development Host. No screenshot, poster or video frame is
 AI-generated.
 
 ## VSCE integration
@@ -37,6 +38,7 @@ Each extension declares `vsce.baseImagesUrl` for its matching folder:
 ```text
 https://raw.githubusercontent.com/auricartisan/Auric-Artisan-Media/main/file-system
 https://raw.githubusercontent.com/auricartisan/Auric-Artisan-Media/main/formatter
+https://raw.githubusercontent.com/auricartisan/Auric-Artisan-Media/main/live
 ```
 
 This lets the extension READMEs use normal relative image and documentation
