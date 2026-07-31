@@ -24,6 +24,7 @@ The File System and Formatter kits contain:
 - full-resolution screenshots for the major workflow chapters;
 - the compact animated GIF and its original full-size source captures;
 - extension icons used by the Marketplace package.
+- public copies of user-facing documents linked from Marketplace README pages.
 
 Every File System and Formatter screen was captured from a running VS Code
 Extension Development Host. No screenshot, poster or video frame is
@@ -38,8 +39,8 @@ https://raw.githubusercontent.com/auricartisan/Auric-Artisan-Media/main/file-sys
 https://raw.githubusercontent.com/auricartisan/Auric-Artisan-Media/main/formatter
 ```
 
-This lets the extension READMEs use normal relative image paths while VSCE
-publishes stable HTTPS links. Video, transcript and caption links point directly
-to this repository.
+This lets the extension READMEs use normal relative image and documentation
+paths while VSCE publishes stable public HTTPS links. Video, transcript and
+caption links point directly to this repository as well.
 
 Licensed under MIT.

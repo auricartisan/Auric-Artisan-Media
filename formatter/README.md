@@ -9,6 +9,10 @@ running extension. Explanations are burned into the video.
 · [Read the transcript](media/marketplace/TRANSCRIPT.md)
 · [Download SRT captions](media/marketplace/full-walkthrough.srt)
 
+Public Marketplace references:
+[languages](docs/LANGUAGES.md) · [options](docs/OPTIONS.md) ·
+[presets](docs/PRESETS.md) · [licence](LICENSE.txt)
+
 ## Full-size chapter captures
 
 ### Native diff preview
