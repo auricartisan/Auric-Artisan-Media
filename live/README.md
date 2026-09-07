@@ -1,79 +1,90 @@
-# Auric Artisan Live 0.1.0 — media kit
+# Auric Artisan Live — Media Kit
 
-Publication-ready video, images, captions, and documentation for Auric Artisan
-Live. The guide begins with a real website folder and follows the complete
-developer workflow: Go Live, stable reloads, the in-page dashboard, cache and
-network evidence, storage records, responsive preview, proxy/mock APIs, request
-inspection, ignore rules, and performance testing.
+Current screenshots for **v0.2.0**, showing the redesigned development workspace,
+browser dashboard, inline phone QR and custom dropdowns.
 
-## Watch the complete real-use guide
+[Marketplace](https://marketplace.visualstudio.com/items?itemName=auric-artisan.auric-artisan-live) · [Auric Artisan](https://auricartisan.com/) · [Screenshot files](media/)
 
-[![Watch the complete 4 minute 20 second Auric Artisan Live walkthrough](media/marketplace/video-poster.png)](media/marketplace/full-walkthrough.mp4)
+## Development workspace
 
-**[Watch or download the 4:20 MP4](media/marketplace/full-walkthrough.mp4)**
+![Auric Live workspace overview](media/studio-overview.png)
 
-The 1920×1080 H.264 video includes a paced original soundtrack, visible chapter
-guidance, and a complete workflow from an empty local serving session through
-advanced developer inspection. Select the poster above to open the video.
+The control panel brings project controls, request totals, live reload and network
+shaping into one workspace. These are real extension bundles rendered in a browser
+test harness with demonstration data, not an actual VS Code window.
 
-## Follow the full guide
+## Screenshot collection
 
-| Resource | Open |
-| --- | --- |
-| Complete 4:20 walkthrough | [MP4 video](media/marketplace/full-walkthrough.mp4) |
-| Start-to-finish written guide | [FULL-GUIDE.md](media/marketplace/FULL-GUIDE.md) |
-| Action-by-action timeline | [TRANSCRIPT.md](media/marketplace/TRANSCRIPT.md) |
-| Accessible captions | [SRT](media/marketplace/full-walkthrough.srt) · [WebVTT](media/marketplace/full-walkthrough.vtt) |
-| Embedded chapter source | [chapters.ffmeta](media/marketplace/chapters.ffmeta) |
-| Original music provenance | [MUSIC.md](media/marketplace/MUSIC.md) |
-| All eleven full-resolution captures | [Real-use screenshot gallery](media/marketplace/screenshots/) |
-| File hashes and technical metadata | [ASSET-MANIFEST.json](media/marketplace/ASSET-MANIFEST.json) |
+| View | Image | What it shows |
+| --- | --- | --- |
+| Workspace | [studio-overview.png](media/studio-overview.png) | Project controls, metrics and live-reload settings. |
+| Request inspector | [studio-requests.png](media/studio-requests.png) | Combined filters, response handlers, size and timing. |
+| Browser dashboard | [dashboard-website-desktop.png](media/dashboard-website-desktop.png) | Page health, browser measurements and delivery summaries. |
+| Phone QR | [studio-inline-phone-qr.png](media/studio-inline-phone-qr.png) | Inline QR, demonstration LAN address and copy controls. |
+| Console | [dashboard-console-fixed.png](media/dashboard-console-fixed.png) | Grouped actions and an unclipped log-level menu. |
+| Settings | [studio-custom-dropdowns.png](media/studio-custom-dropdowns.png) | Session settings and the OneDrop compression menu. |
 
-The transcript and caption files provide text alternatives to the video. The
-written guide can also be followed independently as a build-along reference.
+### Request inspection
 
-## Real-use image gallery
+![Auric Live request inspector](media/studio-requests.png)
 
-Every image opens at full resolution.
+### Browser diagnostics
 
-| Served site and Go Live | Extension control panel |
-| --- | --- |
-| [![A real website served by Auric Artisan Live](media/marketplace/screenshots/01-served-site.png)](media/marketplace/screenshots/01-served-site.png) | [![Auric Artisan Live control panel in VS Code](media/marketplace/screenshots/02-control-panel.png)](media/marketplace/screenshots/02-control-panel.png) |
-| **Live reload and network activity** | **Responsive preview** |
-| [![Live reload and network information](media/marketplace/screenshots/03-live-reload-and-network.png)](media/marketplace/screenshots/03-live-reload-and-network.png) | [![Responsive preview controls and website](media/marketplace/screenshots/06-responsive-preview.png)](media/marketplace/screenshots/06-responsive-preview.png) |
-| **Developer dashboard** | **Performance stress test** |
-| [![In-page developer dashboard showing priority and health information](media/marketplace/screenshots/09-developer-dashboard.png)](media/marketplace/screenshots/09-developer-dashboard.png) | [![Developer dashboard reporting performance stress-test results](media/marketplace/screenshots/11-performance-stress-test.png)](media/marketplace/screenshots/11-performance-stress-test.png) |
+![Auric Live browser dashboard](media/dashboard-website-desktop.png)
 
-The [complete gallery](media/marketplace/screenshots/) also covers proxy, mock,
-and REST configuration; the request inspector; phone preview; local storage
-records; and cursor control.
+### Real-device connection
 
-## What the walkthrough demonstrates
+![Inline phone QR with a demonstration address](media/studio-inline-phone-qr.png)
 
-- one stable reload per meaningful save, plus CSS and image hot swapping;
-- a demand-driven dashboard for health, FPS, paint timing, interaction delay,
-  layout shift, long tasks, DOM size, and runtime findings;
-- measured network transfer data, cache estimates, and server-confirmed cache
-  validation kept clearly separate;
-- `.auric-live/` session records and `.auricignore-live` serving, watching,
-  reload, and recording controls;
-- responsive and phone previews, proxy fallback, mock endpoints, a JSON REST
-  surface, and sanitized request inspection;
-- an optional Auric cursor that can be returned to the website cursor instantly
-  and preserves native behavior for accessibility-sensitive environments.
+<details>
+<summary>Console and custom settings menus</summary>
 
-## Provenance and integrity
+![Browser console and log-level filter](media/dashboard-console-fixed.png)
 
-All product visuals were captured from the real extension bundles running with
-a disposable local demo site. No screenshot, poster, or video frame is
-AI-generated. The soundtrack is original procedural audio made without external
-music, samples, loops, or AI-generated audio.
+![Session settings and custom compression menu](media/studio-custom-dropdowns.png)
 
-The version, duration, codecs, resolution, byte counts, and SHA-256 hashes are
-recorded in [ASSET-MANIFEST.json](media/marketplace/ASSET-MANIFEST.json).
+</details>
 
-VSCE media base URL:
+## Provenance
+
+- Captured from the shipped extension UI or a locally served diagnostic fixture.
+- No AI-generated or retouched product screenshots.
+- Workspace names, paths, QR addresses and traffic are demonstration fixtures.
+- Metrics illustrate the interface; they are not performance benchmarks.
+- [SCREENSHOTS.json](media/SCREENSHOTS.json) records source filenames, byte sizes
+  and SHA-256 hashes for this collection.
+
+## Public image URLs
+
+Use the raw GitHub URL when embedding an image in a Marketplace or extension README:
+
+```text
+https://raw.githubusercontent.com/auricartisan/Auric-Artisan-Media/main/live/media/studio-overview.png
+```
+
+Replace the final filename with any image in the collection. Files are ordinary
+PNG assets, not Git LFS pointers. The extension's VSCE image base remains:
 
 ```text
 https://raw.githubusercontent.com/auricartisan/Auric-Artisan-Media/main/live
 ```
+
+## Earlier walkthrough — v0.1.0
+
+The existing walkthrough and media remain available for reference. They show an
+earlier interface; use the screenshots above for the current release.
+
+<details>
+<summary>Video, captions and earlier documentation</summary>
+
+[![Earlier Auric Artisan Live walkthrough](media/marketplace/video-poster.png)](media/marketplace/full-walkthrough.mp4)
+
+- [Watch or download the 4:20 walkthrough](media/marketplace/full-walkthrough.mp4)
+- [Written guide](media/marketplace/FULL-GUIDE.md)
+- [Transcript](media/marketplace/TRANSCRIPT.md)
+- [SRT captions](media/marketplace/full-walkthrough.srt) · [WebVTT captions](media/marketplace/full-walkthrough.vtt)
+- [Earlier screenshot gallery](media/marketplace/screenshots/)
+- [Music provenance](media/marketplace/MUSIC.md)
+- [Earlier asset manifest](media/marketplace/ASSET-MANIFEST.json)
+
+</details>

@@ -1,0 +1,49 @@
+{
+  "product": "Auric Artisan Live",
+  "release": "0.2.0",
+  "provenance": "Real extension UI rendered in a browser harness with demonstration data. Not performance benchmarks.",
+  "files": [
+    {
+      "file": "studio-overview.png",
+      "sourceProject": "Auric-Artisan-Live",
+      "source": "media/studio-overview.png",
+      "bytes": 97821,
+      "sha256": "cca2b7ad205bb77144f77f125fb1bedb250c41805028d91fcf9ff497781fdf52"
+    },
+    {
+      "file": "studio-requests.png",
+      "sourceProject": "Auric-Artisan-Live",
+      "source": "test/artifacts/studio-requests.png",
+      "bytes": 69160,
+      "sha256": "c54cc6961d5808b01468319d0ef8b26f685175b8fda6782bff0b7da349564730"
+    },
+    {
+      "file": "studio-inline-phone-qr.png",
+      "sourceProject": "Auric-Artisan-Live",
+      "source": "test/artifacts/studio-inline-phone-qr.png",
+      "bytes": 21275,
+      "sha256": "008f3960e16dffd7d2372250727a25edd341cd2defb3a7e1d9d0fcfc8a21feed"
+    },
+    {
+      "file": "dashboard-website-desktop.png",
+      "sourceProject": "Auric-Artisan-Live",
+      "source": "test/artifacts/dashboard-website-desktop.png",
+      "bytes": 87414,
+      "sha256": "f946e4c4ae95a83bdc4f731efb057616aef6422aa9d5abac83522ad5730510a2"
+    },
+    {
+      "file": "dashboard-console-fixed.png",
+      "sourceProject": "Auric-Artisan-Live",
+      "source": "test/artifacts/dashboard-console-fixed.png",
+      "bytes": 43784,
+      "sha256": "ff691159812640e9697c1a2db8cf9561761dc5bf741f3f955d47f88a352e4d07"
+    },
+    {
+      "file": "studio-custom-dropdowns.png",
+      "sourceProject": "Auric-Artisan-Live",
+      "source": "test/artifacts/studio-custom-dropdowns.png",
+      "bytes": 76321,
+      "sha256": "32d11eec666bdafa5d01e6ededaa0e54354a47c36934a090d93c2728cf58e89a"
+    }
+  ]
+}
