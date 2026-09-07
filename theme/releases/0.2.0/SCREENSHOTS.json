@@ -1,0 +1,51 @@
+{
+  "extension": "auric-artisan.auric-artisan-theme",
+  "version": "0.2.0",
+  "captured": "2026-09-08",
+  "source": "Auric-Artisan-Theme/build/release-media.cjs",
+  "renderer": "Real webview code, generated palettes, mock VS Code API, headless Edge",
+  "files": [
+    {
+      "name": "sidebar-families.png",
+      "bytes": 55753,
+      "width": 460,
+      "height": 1387,
+      "sha256": "ac956132fa12b1b21a0739acb9d15d758723671203a4092e33ae0160ed21a49b"
+    },
+    {
+      "name": "sidebar-hindi.png",
+      "bytes": 54947,
+      "width": 460,
+      "height": 1410,
+      "sha256": "6a8ebf2a99c64a1a612139e20cd242520c759e4d0399e745ba8101ed83dbd538"
+    },
+    {
+      "name": "studio-light.png",
+      "bytes": 68003,
+      "width": 1280,
+      "height": 950,
+      "sha256": "4871457a2f611a2d0e0f879f5d5681407564d5ac862772bba3d3a7fedd41b2bf"
+    },
+    {
+      "name": "studio-overview.png",
+      "bytes": 68449,
+      "width": 1280,
+      "height": 950,
+      "sha256": "4cb4075496162046877541a2ab9c377ea370d5d8aa9aaff420c253cbee28a863"
+    },
+    {
+      "name": "studio-picker.png",
+      "bytes": 100372,
+      "width": 1280,
+      "height": 950,
+      "sha256": "7df466b90078fa6dc9b13687a44aec9313372f90fde3cae7237185d85294def0"
+    },
+    {
+      "name": "studio-preview.png",
+      "bytes": 60949,
+      "width": 1280,
+      "height": 1172,
+      "sha256": "de886cf52101b90cbff2c43406aeace9261f801533ad9265a53742b51f564406"
+    }
+  ]
+}
