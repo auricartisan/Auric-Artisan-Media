@@ -1,0 +1,37 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:17.000
+Start from zero. Learn the workspace, sessions, transcript, composer, inspector rail, and status.
+
+00:00:19.000 --> 00:00:35.000
+Compose with context. Review suggestions, corrections, explanations, and risk hints before running.
+
+00:00:37.000 --> 00:00:53.000
+Keep real output readable with ANSI colour, progress redraws, duration, exit status, pin, rerun, copy, and export.
+
+00:00:55.000 --> 00:01:11.000
+Use Ctrl or Command K to search tools, scripts, Git actions, sessions, history, and views.
+
+00:01:13.000 --> 00:01:29.000
+Run scripts from the nearest project with the detected npm, pnpm, Yarn, or Bun package manager.
+
+00:01:31.000 --> 00:01:47.000
+Review branch divergence, staged, unstaged, untracked, conflict, and stash context.
+
+00:01:49.000 --> 00:02:05.000
+Search and favorite command history, then find exact text inside retained output.
+
+00:02:07.000 --> 00:02:23.000
+Share repository runbooks whose reviewed steps run in order and stop on failure.
+
+00:02:25.000 --> 00:02:41.000
+Set persistent session environment values or load dotenv files while secret-looking values stay masked.
+
+00:02:43.000 --> 00:02:59.000
+Inspect installed tool versions and paths, and prepare missing-tool installs for review.
+
+00:03:01.000 --> 00:03:17.000
+Stop before damage. A destructive command explains its consequence and offers safer inspection first.
+
+00:03:19.000 --> 00:03:35.000
+Tune density, type, prompt, ANSI palette, accent, backdrop, and motion.

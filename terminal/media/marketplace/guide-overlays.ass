@@ -1,0 +1,24 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Guide,Segoe UI,34,&H00F8F4EA,&H000000FF,&H00100F0D,&HD6000000,-1,0,0,0,100,100,0,0,3,2,0,2,160,160,54,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.00,0:00:17.00,Guide,,0,0,0,,{\c&H47C8F4&}01  START FROM ZERO{\c&HFFFFFF&}\NOpen Auric Terminal and learn the panel before running anything.
+Dialogue: 0,0:00:19.00,0:00:35.00,Guide,,0,0,0,,{\c&H47C8F4&}02  COMPOSE WITH CONTEXT{\c&HFFFFFF&}\NSuggestions, corrections, explanations, and risk hints update as you type.
+Dialogue: 0,0:00:37.00,0:00:53.00,Guide,,0,0,0,,{\c&H47C8F4&}03  KEEP REAL OUTPUT READABLE{\c&HFFFFFF&}\NANSI colour, progress redraws, duration, exit status, pin, rerun, copy, and export.
+Dialogue: 0,0:00:55.00,0:01:11.00,Guide,,0,0,0,,{\c&H47C8F4&}04  DRIVE IT FROM THE KEYBOARD{\c&HFFFFFF&}\NCtrl/Cmd + K searches tools, scripts, Git actions, sessions, history, and views.
+Dialogue: 0,0:01:13.00,0:01:29.00,Guide,,0,0,0,,{\c&H47C8F4&}05  RUN PROJECT SCRIPTS{\c&HFFFFFF&}\NAuric finds the nearest package and uses npm, pnpm, Yarn, or Bun correctly.
+Dialogue: 0,0:01:31.00,0:01:47.00,Guide,,0,0,0,,{\c&H47C8F4&}06  UNDERSTAND THE REPOSITORY{\c&HFFFFFF&}\NReview branch, divergence, staged, unstaged, untracked, and stash context.
+Dialogue: 0,0:01:49.00,0:02:05.00,Guide,,0,0,0,,{\c&H47C8F4&}07  REUSE WHAT WORKED{\c&HFFFFFF&}\NSearch and favorite command history; find exact text inside retained output.
+Dialogue: 0,0:02:07.00,0:02:23.00,Guide,,0,0,0,,{\c&H47C8F4&}08  SHARE REPEATABLE WORK{\c&HFFFFFF&}\NRepository runbooks execute reviewed steps in order and stop on failure.
+Dialogue: 0,0:02:25.00,0:02:41.00,Guide,,0,0,0,,{\c&H47C8F4&}09  CONTROL EACH SESSION{\c&HFFFFFF&}\NSet persistent session values or load dotenv files; secret-looking values stay masked.
+Dialogue: 0,0:02:43.00,0:02:59.00,Guide,,0,0,0,,{\c&H47C8F4&}10  SEE THE REAL TOOLCHAIN{\c&HFFFFFF&}\NInspect installed versions and paths; prepare missing-tool installs for review.
+Dialogue: 0,0:03:01.00,0:03:17.00,Guide,,0,0,0,,{\c&H47C8F4&}11  STOP BEFORE DAMAGE{\c&HFFFFFF&}\NDangerous commands explain the consequence and offer safer inspection first.
+Dialogue: 0,0:03:19.00,0:03:35.00,Guide,,0,0,0,,{\c&H47C8F4&}12  MAKE THE SURFACE YOURS{\c&HFFFFFF&}\NTune density, type, prompt, ANSI palette, accent, backdrop, and motion.

@@ -1,0 +1,38 @@
+{
+  "product": "Auric Artisan Terminal",
+  "version": "0.1.0",
+  "generated": "2026-07-31",
+  "provenance": "Real extension UI rendered from test/harness.html; no AI-generated product imagery or audio.",
+  "video": {
+    "file": "full-walkthrough.mp4",
+    "duration": "00:03:36",
+    "resolution": "1920x1080",
+    "frameRate": 30,
+    "videoCodec": "H.264",
+    "audioCodec": "AAC",
+    "sha256": "5aa9cfa22ccdc343c143ce073833378e06cf1a7dbd8134262d22ed74d00de434",
+    "bytes": 6720171
+  },
+  "assets": [
+    {"file":"video-poster.png","sha256":"1e39542b203de5e927825037825850cb968c9ec26c33be9460a5270d004a9433","bytes":50428},
+    {"file":"contact-sheet.png","sha256":"6f254e6d032be28a65f0244e884da4e611c88d7cc41491210020d63916acc8c0","bytes":181748},
+    {"file":"full-walkthrough.srt","sha256":"a87d8231cbb2ab6ba784ba6e32993ceec66be98eb2486ea50278307951877c0c","bytes":1512},
+    {"file":"full-walkthrough.vtt","sha256":"e3c634bb6c82661802d84723ef37fd0382f741bdab00540986addd4de5803c57","bytes":1493},
+    {"file":"FULL-GUIDE.md","sha256":"0b9949a11b5c72478a9f4a8a6d74538058fc6e0f5798a5f6e440b41358bd9b50","bytes":3691},
+    {"file":"TRANSCRIPT.md","sha256":"f07f290530ec36100a42887a1135c01410ead49ad9771289ddbe40e20e665481","bytes":1693},
+    {"file":"MUSIC.md","sha256":"1f3aa5b8aa1c219fff76b11fd1151c86b9b6d9dfd0063ae3466ed1ac74cc3e3d","bytes":489},
+    {"file":"chapters.ffmeta","sha256":"6ef7f179b45c4afc82b7f94bea29fc7a9ec0bb80d07fe8c3c5783d325ed7069a","bytes":875},
+    {"file":"screenshots/01-terminal-overview.png","sha256":"5358797bd1fed58fbb98c66ee8d7302ab04345b247de8a0655fc5673dbdf8257","bytes":39252},
+    {"file":"screenshots/02-command-intelligence.png","sha256":"742a277ed1a7f7b0337b7bfb73f48030b75a7f66ffc2e05da96e79e4af283a41","bytes":50194},
+    {"file":"screenshots/03-real-command-output.png","sha256":"88f844801724d7210abb751a607b6d306b0321de00a3e1c2c81e0bc31a43f88d","bytes":35955},
+    {"file":"screenshots/04-command-palette.png","sha256":"2f640a0d50cceecae58b033bd2b5cd43dbd3e813787b6c5c374c85cea0a3cc2c","bytes":63242},
+    {"file":"screenshots/05-package-dashboard.png","sha256":"97ee503034bda84f261c36f2770bc179db25b6d398f1dc218183649e7549b6df","bytes":86390},
+    {"file":"screenshots/06-git-dashboard.png","sha256":"5ebecefbc63f191ae5b60743008da0dcb19284f70a6ce2759ef1fe511825eadf","bytes":89691},
+    {"file":"screenshots/07-history-and-find.png","sha256":"aefe539c0eb84dde22da91b094a23dc23d4e27515edcd66bf23799f4cc3cb807","bytes":66277},
+    {"file":"screenshots/08-runbooks.png","sha256":"4eae47703ecc753e467d28894acc121be16276ab3d0fc18c040e5ad56121efc4","bytes":44989},
+    {"file":"screenshots/09-environment.png","sha256":"0f2c23cd4a7c4273accfb8c2d852ef1840112a2ec9d726735b420e6e3ffa6e7e","bytes":44652},
+    {"file":"screenshots/10-toolchain.png","sha256":"bc8d2e84762017f9a34e5e42b5c2e5469cf6a3d2ed174b050938a4dd67697646","bytes":68986},
+    {"file":"screenshots/11-safety-review.png","sha256":"7ec7db2e0b915f88cfbc7b7b1ffd7b6a5d1da50ddd834c61a339a9c2e4a015a6","bytes":50388},
+    {"file":"screenshots/12-customize.png","sha256":"9f359e2c346692f7530010ebae4596220cc77a2a977e1af54fa76262f808c80f","bytes":96156}
+  ]
+}

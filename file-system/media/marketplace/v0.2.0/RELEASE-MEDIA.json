@@ -1,0 +1,36 @@
+{
+  "version": "0.2.0",
+  "captured": "2026-09-11",
+  "method": "Actual extension webview rendered in headless Microsoft Edge using scripts/capture-release.cjs; VS Code messaging shim and illustrative sample data. Not a full VS Code application screenshot. No personal workspace data or AI-generated imagery.",
+  "source": "https://github.com/auricartisan/Auric-Artisan-IDE-Plugins/blob/main/Auric-Artisan-File-System/scripts/capture-release.cjs",
+  "assets": [
+    {
+      "file": "workspace.png",
+      "bytes": 96605,
+      "width": 1440,
+      "height": 1803,
+      "sha256": "a9d09c210b0ec1d6ea5532bb54de415633ea8f8f24dc166eede5d45c685686bb"
+    },
+    {
+      "file": "properties.png",
+      "bytes": 64017,
+      "width": 1440,
+      "height": 1514,
+      "sha256": "26752ad95df7cdd6729ff78e16144665d9cd9f555ad12888deee64dcb1b7d795"
+    },
+    {
+      "file": "action-search.png",
+      "bytes": 28243,
+      "width": 1120,
+      "height": 656,
+      "sha256": "f408033732738e4bcfc45071757ea363ded7c43d4cf9ec3023f4aa84de5a00ac"
+    },
+    {
+      "file": "sidebar.png",
+      "bytes": 70351,
+      "width": 360,
+      "height": 2099,
+      "sha256": "e54aec09fbb5beac6802ee6095012f66b335ef6f9c0f251f82b0a5cde834f109"
+    }
+  ]
+}

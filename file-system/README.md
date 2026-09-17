@@ -1,35 +1,55 @@
-# Auric Artisan File System — visual media
+# Auric Artisan File System — v0.1.0 media
 
-[![Watch the complete real VS Code walkthrough](media/marketplace/video-poster.png)](media/marketplace/full-walkthrough.mp4)
+Every file. In its place.
 
-The 1 minute 34 second walkthrough is a 1920 × 1040 H.264 recording of the
-running extension. Explanations are burned into the video.
+Release screenshots for the File Workspace, graphical Properties, searchable action groups and Explorer companion sidebar.
 
-[Watch or download the MP4](media/marketplace/full-walkthrough.mp4)
-· [Read the transcript](media/marketplace/TRANSCRIPT.md)
-· [Download SRT captions](media/marketplace/full-walkthrough.srt)
+[Extension source](https://github.com/auricartisan/Auric-Artisan-IDE-Plugins/tree/main/Auric-Artisan-File-System) · [Website](https://auricartisan.com) · [Release notes](https://github.com/auricartisan/Auric-Artisan-IDE-Plugins/blob/main/Auric-Artisan-File-System/CHANGELOG.md)
 
-## Full-size chapter captures
+## Current interface
 
-### Command centre
+![Auric File Workspace with seven action groups](media/marketplace/v0.1.0/workspace.png)
 
-![Searchable Auric Artisan File System command centre](media/marketplace/screenshots/02-command-center.png)
+These are captures of the **actual extension webview renderer with illustrative sample data**, rendered in headless Microsoft Edge. They are not full VS Code application screenshots. Counts, dates, tags and paths are demonstration values. No private workspace data is captured, and no AI image generator is used.
 
-### Framework presets
+| Asset | Purpose |
+| --- | --- |
+| [Workspace](media/marketplace/v0.1.0/workspace.png) | Brand header, workspace summary, selection and grouped tools |
+| [Properties](media/marketplace/v0.1.0/properties.png) | General, Organisation, and Access & history cards |
+| [Action search](media/marketplace/v0.1.0/action-search.png) | Batch tools filtered across groups |
+| [Sidebar](media/marketplace/v0.1.0/sidebar.png) | Compact 360px companion view |
+| [Integrity manifest](media/marketplace/v0.1.0/RELEASE-MEDIA.json) | SHA-256 hashes, dimensions, file sizes and provenance |
 
-![Framework-aware scaffolding presets](media/marketplace/screenshots/03-framework-presets.png)
+## Properties
 
-### Batch creation
+![Graphical file Properties with sample metadata](media/marketplace/v0.1.0/properties.png)
 
-![Batch creation destination picker](media/marketplace/screenshots/04-batch-create.png)
+## Reproduce and verify
 
-### Related files
+In the extension source directory:
 
-![Related test-file navigation](media/marketplace/screenshots/05-related-test.png)
+```sh
+npm ci
+npm run media:capture
+npm run release:check
+```
 
-### Duplicate detection
+Windows capture uses installed Edge; other systems use Playwright Chromium. Capture code is in [scripts/capture-release.cjs](https://github.com/auricartisan/Auric-Artisan-IDE-Plugins/blob/main/Auric-Artisan-File-System/scripts/capture-release.cjs).
 
-![Content-based duplicate finder](media/marketplace/screenshots/08-duplicate-finder.png)
+The release check compares the source-kit PNGs with the manifest and this checkout when available. After pushing the media and source repositories, run `npm run release:verify-public` to verify public image hashes and documentation URLs.
 
-All screens are real VS Code Extension Development Host captures. The poster is
-composed from the real command-centre screenshot. No image is AI-generated.
+## Stable image base
+
+```text
+https://raw.githubusercontent.com/auricartisan/Auric-Artisan-Media/main/file-system/media/marketplace/v0.1.0/
+```
+
+These versioned paths are referenced from the extension README and excluded from its VSIX. A local copy here does not make them publicly available until the media repository is pushed.
+
+## Earlier workflow assets
+
+[Earlier video](media/marketplace/full-walkthrough.mp4) · [Poster](media/marketplace/video-poster.png) · [SRT captions](media/marketplace/full-walkthrough.srt) · [Transcript](media/marketplace/TRANSCRIPT.md) · [Screenshot directory](media/marketplace/screenshots/)
+
+Earlier recordings use the previous menu layout. They have not been re-recorded or relabelled as v0.1.0. [Historical media notes](LEGACY-MEDIA-NOTES.md) are preserved separately; unavailable chapter, music and guide files are not advertised as current release assets.
+
+The extension's existing [licence](https://github.com/auricartisan/Auric-Artisan-IDE-Plugins/blob/main/Auric-Artisan-File-System/LICENSE.txt) is unchanged by this media update.
